@@ -15,8 +15,8 @@
 A basic JSend-compliant response is as simple as this:
 ```json
 {
-    status : "success",
-    data : {
+    "status": "success",
+    "data": {
         "post" : { "id" : 1, "title" : "A blog post", "body" : "Some useful content" }
      }
 }
@@ -59,12 +59,12 @@ code, data
 **GET /posts.json:**
 ```json
 {
-    status : "success",
-    data : {
-        "posts" : \[
+    "status": "success",
+    "data": {
+        "posts" : [
             { "id" : 1, "title" : "A blog post", "body" : "Some useful content" },
             { "id" : 2, "title" : "Another blog post", "body" : "More content" },
-        \]
+        ]
      }
 }
 ```
@@ -72,16 +72,16 @@ code, data
 **GET /posts/2.json:**
 ```json
 {
-    status : "success",
-    data : { "post" : { "id" : 2, "title" : "Another blog post", "body" : "More content" }}
+    "status": "success",
+    "data": { "post" : { "id" : 2, "title" : "Another blog post", "body" : "More content" }}
 }
 ```
 
 **DELETE /posts/2.json:**
 ```json
 {
-    status : "success",
-    data : null
+    "status": "success",
+    "data": null
 }
 ```
 
@@ -110,8 +110,8 @@ Required keys:
 **GET /posts.json**:
 ```json
 {
-    "status" : "error",
-    "message" : "Unable to communicate with database"
+    "status": "error",
+    "message": "Unable to communicate with database"
 }
 ```
 
