@@ -1,4 +1,4 @@
-JSend
+# JSend
 ==============================================================================================
 
 *   **What?** - Put simply, JSend is a specification that lays down some rules for how [JSON](http://json.org/) responses from web servers should be formatted. JSend focuses on application-level (as opposed to protocol- or transport-level) messaging which makes it ideal for use in [REST](http://en.wikipedia.org/wiki/Representational_State_Transfer)\-style applications and APIs.
@@ -9,9 +9,9 @@ JSend
 
 *   **(Why) Should I care?** - If you're a library or framework developer, this gives you a consistent format which your users are more likely to already be familiar with, which means they'll already know how to consume and interact with your code. If you're a web app developer, you won't have to think about how to structure the JSON data in your application, and you'll have existing reference implementations to get you up and running quickly.
 
-*   **Discuss** - [Mailing list](https://t.me/lyseontech)
+*   **Discuss** - [Telegram](https://t.me/lyseontech)
 
-So how's it work? [¶](https://labs.omniti.com/labs/jsend#Sohowsitwork "Link to this section")
+# So how's it work?
 -----------------------------------------------------------------------------------------------------------------
 
 A basic JSend-compliant response is as simple as this:
